@@ -1,0 +1,10 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  first-part:
+    runs-on: windows-latest
+    steps:
+        - name: Print greetings 2
+          run: echo "Good Night" 
+        - name: Print wishes 
+          run: echo "Have a good sleep" 
